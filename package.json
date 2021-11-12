@@ -1,0 +1,16 @@
+{
+  "name": "electron-react-template",
+  "version": "1.0.0",
+  "description": "Electron with React template project.",
+  "main": "index.js",
+  "scripts": {
+    "main": "npm run start --prefix main",
+    "renderer": "npm run start --prefix renderer",
+    "dev": "concurrently \"npm run main\" \"npm run renderer\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
